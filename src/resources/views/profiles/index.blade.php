@@ -49,8 +49,8 @@ $('form.profileForm').submit(() => {
             <label for="gender">性別:</label>
             <select name="gender" id="gender">
                 <option value="">--性別を選択して下さい--</option>
-                <option value="men">男性</option>
-                <option value="women">女性</option>
+                <option value="dog">男性</option>
+                <option value="cat">女性</option>
             </select>
         </div>
         <div class="form-profile">
@@ -61,46 +61,47 @@ $('form.profileForm').submit(() => {
             <label for="bloodtype">血液型:</label>
             <select name="bloodtype" id="bloodtype">
                 <option value="">--血液型を選択して下さい--</option>
-                <option value="Atype">A型</option>
-                <option value="Btype">B型</option>
-                <option value="Otype">O型</option>
-                <option value="ABtype">AB型</option>
+                <option value="dog">A型</option>
+                <option value="cat">B型</option>
+                <option value="dog">O型</option>
+                <option value="cat">AB型</option>
             </select>
         </div>
         <div class="form-profile">
             <label for="residence">居住地:</label>
             <select name="residence" id="residence">
                 <option value="">--居住地を選択して下さい--</option>
-                <option value="Tokyo">東京</option>
-                <option value="Saitama">埼玉</option>
-                <option value="Chiba">千葉</option>
-                <option value="Kanagawa">神奈川</option>
+                <option value="dog">東京</option>
+                <option value="cat">埼玉</option>
+                <option value="dog">千葉</option>
+                <option value="cat">神奈川</option>
             </select>
         </div>
         <div class="form-profile">
             <label for="height">身長:</label>
             <select name="height" id="height">
                 <option value="">--身長を選択して下さい--</option>
-                <option value="130-140">130㎝〜140cm</option>
-                <option value="140-150">140㎝〜150cm</option>
-                <option value="150-160">150㎝〜160cm</option>
-                <option value="160-170">160㎝〜170cm</option>
-                <option value="170-180">170㎝〜180cm</option>
-                <option value="180-190">180㎝〜190cm</option>
+                <option value="dog">130㎝〜140cm</option>
+                <option value="cat">140㎝〜150cm</option>
+                <option value="dog">150㎝〜160cm</option>
+                <option value="cat">160㎝〜170cm</option>
+                <option value="cat">170㎝〜180cm</option>
+                <option value="cat">180㎝〜190cm</option>
             </select>
         </div>
         <div class="form-profile">
             <label for="body">体型:</label>
             <select name="body" id="body">
                 <option value="">--体型を選択して下さい--</option>
-                <option value="slim">スリム</option>
-                <option value="normal">普通</option>
-                <option value="glamour">グラマー</option>
-                <option value="muscularity">筋肉質</option>
-                <option value="littlefat.">ややぽっちゃり</option>
-                <option value="fat">ぽっちゃり</option>
+                <option value="dog">スリム</option>
+                <option value="cat">普通</option>
+                <option value="dog">グラマー</option>
+                <option value="cat">筋肉質</option>
+                <option value="cat">ややぽっちゃり</option>
+                <option value="cat">ぽっちゃり</option>
             </select>
         </div>
+
 
         <div class="form-profile">
             <input type="submit" id="button1" value="登録" />
